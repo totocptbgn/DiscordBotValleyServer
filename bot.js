@@ -11,7 +11,7 @@ client.on('message', message => {
 
   // Make the bot reply to ".hi"
   if (message.content === prefix + 'hi') {
-    message.channel.send("Hi, " + message.author.toString() + ". :smile:")
+    message.channel.send("Hi, " + message.author.toString() + ". :smile:");
     console.log(`Replied hi to ${message.author.username} in ${message.guild.name}`);
   }
 
