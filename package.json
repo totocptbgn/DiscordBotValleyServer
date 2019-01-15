@@ -1,14 +1,12 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "DiscordBot",
+  "description": "A Discord Bot.",
+  "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "11.4.2",
-    "ffmpeg-binaries": "^4.0.0",
-    "ytdl-core": "^0.25.2"
+    "discord.js": "11.4.2"
   }
 }
