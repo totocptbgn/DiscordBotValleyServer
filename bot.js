@@ -16,12 +16,12 @@ client.on('message', message => {
   }
 
   // Make the bot say whatever you want by typing .say "yout message"
-  if(message.content.substr(0, 8) === prefix + "say") {
+  if (message.content.substr(0, 8) === prefix + "say") {
     var messageContent = message.content.substr(5, message.content.length);
     message.delete().catch(O_o => {});
     message.channel.send(messageContent);
+    console.log(`Said the message : \"` + messageContent + `\" in ${message.guild.name}`);
   }
-
 });
 
 client.login(process.env.token);
